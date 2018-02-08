@@ -22,7 +22,7 @@ app.use(middleware.logger);
 //app.use(middleware.requireAuthentication);
 
 app.get('/about', function(req,res){
-	res.send('About Us');
+	res.send('About Us!');
 })
 
 
