@@ -1,9 +1,213 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
-<head>
-	<title>My App</title>
-</head>
-<body>
-<h1> Hello Express.js</h1>
-</body>
+  <head>
+    <title>Neo Provectus</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="shortcut icon" href="images/icon.png" />
+    <script type="text/javascript" src="js/jquery.min-new.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript" src="js/jquery-fade.js"></script>
+    <script>
+        $(document).ready(function(){
+           $(".nav-div ul > li").hover(function(){
+             $(this).find(".inner-menu").slideDown(100);
+           },function(){
+             $(this).find(".inner-menu").slideUp(100);
+           });
+        });
+    </script>
+  </head>
+  <body>
+    <div id='slider'>
+        <div id="slideshow">
+            <div class="slider-item">
+                <img src="images/slide1.jpg" alt="" width="100%" height="450" border="0" />
+
+            </div>
+            <div class="slider-item">
+                <img src="images/slide2.jpg" alt="" width="100%" height="450" border="0" />
+
+            </div>
+            <div class="slider-item">
+                <img src="images/slide3.jpg" alt="" width="100%" height="450" border="0" />
+
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-div">
+            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo" /></a>
+            <nav>
+                <div class="nav-div">
+                    <ul>
+                        <li>
+                            <a>Corporate</a>
+                            <ul class="inner-menu">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="leadership.html">Leadership</a></li>
+                                <li><a href="global_delivery.html">Global Delivery</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Industries</a>
+                            <ul class="inner-menu">
+                                <li><a href="manufacturing.html">Manufacturing</a></li>
+                                <li><a href="banking_finance.html">Banking & Finance</a></li>
+                                <li><a href="healthcare.html">Healthcare</a></li>
+                                <li><a href="retail.html">Retail</a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="ecommerce.html">E-Commerce</a></li>
+                                <li><a href="egovernance.html">E-Governance</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Services</a>
+                            <ul class="inner-menu">
+                                <li><a href="product_engineering.html">Product Engineering</a></li>
+                                <li><a href="enterprise_application_development_maintenance.html">Enterprise Application Development & Maintenance</a></li>
+                                <li><a href="mobile_application_development.html">Mobile Application Development</a></li>
+                                <li><a href="business_intelligence.html">Business Intelligence</a></li>
+                                <li><a href="remote_infrastructure_management.html">Remote Infrastructure Management</a></li>
+                                <li><a href="staff_augmentation_services.html">Staff Augmentation Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="technologies.html">Technologies</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <div class="slider-div">
+            <object class="slider-block" type="text/html" data="slider.html"></object>
+        </div>
+    </article>
+    <section class="news-area">
+        <div class="news-div">
+            <object class="news-block" type="text/html" data="news.html"></object>
+        </div>
+    </section>
+    <section class="main-blocks">
+        <div class="main-div">
+            <h1 class="page-title">Welcome to Neo Provectus<hr></h1>
+            <div class="home-serices-block">
+                <div class="services-area">
+                    <i class="fa fa-codepen"></i>
+                    <h2>Product Engineering</h2>
+                </div>
+                <div class="services-area">
+                    <i class="fa fa-connectdevelop"></i>
+                    <h2>Enterprise Application Development & Maintenance</h2>
+                </div>
+                <div class="services-area">
+                    <i class="fa fa-mobile-phone"></i>
+                    <h2>Mobile Application Development</h2>
+                </div>
+                <div class="clearfix"></div>
+                <div class="services-area">
+                    <i class="fa fa-delicious"></i>
+                    <h2>Business Intelligence</h2>
+                </div>
+                <div class="services-area">
+                    <i class="fa fa-cubes"></i>
+                    <h2>Remote Infrastructure Management</h2>
+                </div>
+                <div class="services-area">
+                    <i class="fa fa-users"></i>
+                    <h2>Staff Augmentation Services</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-blocks-full">
+        <div class="main-div-full">
+            <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                    <td class="main-first">
+                        <div class="space-80 hide-div"></div>
+                        <h1 class="page-title">Who We Are & What We Do?<hr></h1>
+                        <p>Neo Provectus is a Technology Company offering IT solutions to corporates globally. We help businesses meet their goals through technology innovation and adoption. We focus on solving our client's most challenging business issues with cross disciplinary approach that covers everything from IT consulting and technology strengths aided by a strong team of professionals.</p>
+                        <div class="clearfix"></div>
+                        <a href="profile.html" class="readmore">Read More</a>
+                        <div class="space-80 hide-div"></div>
+                    </td>
+                    <td class="main-last"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--section class="main-blocks">
+        <div class="main-div">
+            <h1 class="page-title">Partners and Associates<hr></h1>
+            <div class="home-clients-block">
+                <div class="clients-area">
+                    <h2>Client 1</h2>
+                </div>
+                <div class="clients-area">
+                    <h2>Client 2</h2>
+                </div>
+                <div class="clients-area">
+                    <h2>Client 3</h2>
+                </div>
+                <div class="clients-area">
+                    <h2>Client 4</h2>
+                </div>
+            </div>
+        </div>
+    </section-->
+    <div class="main-blocks transparent-area">
+        <div class="trans-main main-div">
+            <h1 class="page-title">Industries<hr></h1>
+            <a href="manufacturing.html"><h2 class="cap1">Manufacturing</h2></a>
+            <a href="banking_finance.html"><h2 class="cap2">Banking & Finance</h2></a>
+            <a href="healthcare.html"><h2 class="cap3">Healthcare</h2></a>
+            <a href="retail.html"><h2 class="cap4">Retail</h2></a>
+            <a href="education.html"><h2 class="cap5">Education</h2></a>
+            <a href="ecommerce.html"><h2 class="cap6">E-Commerce</h2></a>
+            <a href="egovernance.html"><h2 class="cap7">E-Governance</h2></a>
+        </div>
+    </div>
+    <footer class="main-blocks">
+        <div class="footer-div">
+            <div class="footer-block">
+                <div class="footer-area">
+                    <h2>Recent Events</h2>
+                    <object class="footer-scroll-block" type="text/html" data="events.html"></object>
+                </div>
+                <!--<div class="footer-area">
+                    <h2>Testimonials</h2>
+                    <object class="footer-scroll-block" type="text/html" data="testimonials.html"></object>
+                </div>-->
+                <div class="footer-area">
+                    <h2>Follow Us</h2>
+                    <a href="#" class="social-link fb"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-link twit"><i class="fa fa-twitter "></i></a>
+                    <a href="#" class="social-link google"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="footer-area">
+                    <h2>Contact Us</h2>
+                    <p>Neo Provectus Software Solutions (P) Limited</p>
+                    <p>#4-7-147/3, Street No. 1, Nagendranagar Colony</p>
+                    <p>Habsiguda</p>
+                    <p>Hyderabad - 500 007</p>
+                    <p>Telangana (India)</p>
+                    <p>Contact No: +91 76748 72444</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="footer-last">
+        Copyright &copy; Neo Provectus - 2015. All Rights Reserved.
+    </div>
+
+  </body>
 </html>
